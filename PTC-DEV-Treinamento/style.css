@@ -1,0 +1,132 @@
+html{
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(26, 26, 26);
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    color:white;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+body img{
+    max-width: 300px;
+    height: auto;
+}
+
+body h1 {
+    margin-top: 70px;
+}
+
+.about-me-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+    color: transparent,
+}
+
+.about-me-link:hover {
+    color:rgb(33, 255, 21);
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 300px;
+}
+
+
+
+.button{
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size:x-large;
+
+}
+
+.button:hover{
+    background-color: white;
+    color: rgb(26, 26, 26);
+}
+
+
+
+.profile-picture{
+    width: 500px;
+    height: auto;
+    border-radius: 100%;
+    margin-top: 100px  ;
+    border-color: white;
+    border-width: 100px;
+}
+
+footer{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+footer img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+footer h1{
+    font-size: small;
+    font-weight: 500;
+}
+
+footer h1:hover{
+    color: rgb(33, 255, 21);
+}
+
+@media (width <= 890px) {
+    .nav-links{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .profile-picture{
+        width:200px;
+    }
+}
